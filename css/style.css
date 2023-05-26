@@ -227,8 +227,9 @@ color: var(--accent-color);
     background-position: center;
     /* background-size: contain; */
 }
-.antenna::before{
+/* .antenna::before{
 background-image: url(../images/antenna1.svg);
+
 }
 .clock::before{
     background-image: url(../images/clock1.svg);
@@ -239,7 +240,7 @@ background-image: url(../images/antenna1.svg);
 .astronaut::before{
     background-image: url(../images/astronaut1.svg);
 }
-
+ */
 
 
 /* sectio 3 */
@@ -548,4 +549,57 @@ align-items: center;
                 clip-path: inset(100%);
                 clip: rect(0 0 0 0);
                 overflow: hidden;
+}
+
+
+
+
+
+
+.social-link{
+    list-style: none;
+    display: flex;
+}
+.social-list{
+    width: 40px;
+    height: 40px;
+    /* fill: #4D5AE5; */
+    padding: 0;
+    margin: 0;
+    margin-right: 24px;
+    left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        border-radius: 100%;
+        background: #4D5AE5;
+       
+
+}
+.social{
+    background-size: contain;
+    background-position: center;
+}
+
+.icon{
+    width: 16px;
+    height: 16px;
+    fill: red;   
+}
+
+
+
+
+a{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+svg{
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
 }
