@@ -666,10 +666,12 @@ ul{
         border: 1px solid #8e8f99;
         border-radius: 4px;
 }
+
 .customers-link:hover,
 .customers-link:focus {
     border-color: #404bbf;
     color: #404bbf;
+    fill: #404bbf;
 }
 
 .customers-img{
